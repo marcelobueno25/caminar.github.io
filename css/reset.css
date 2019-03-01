@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900');
+
+* {
+    border: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+html,
+body {
+    font-size: 100%;
+    font-family: 'Poppins', sans-serif;
+    height: 100%;
+    color: #55555A;
+    background-image: url(../img/Plano-de-fundo.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ul { list-style: none }
+
+a { text-decoration: none;
+    color: #868686;;
+}
+
+textarea {
+    resize: none;
+}

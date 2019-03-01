@@ -1,0 +1,231 @@
+.rotape {
+  text-align: center;
+}
+.rotape .rede-social {
+  padding: 1.25em 0;
+}
+.rotape .rede-social .rede-social-icone {
+  color: #bbb;
+  cursor: pointer;
+  font-size: 2em;
+  margin: 0 0.325em;
+}
+.rotape .rede-social .rede-social-icone:hover {
+  color: white;
+  transition: 0.4s;
+}
+.rotape .copyright {
+  color: #a7a6a6;
+  padding: 1.25em 0 3em 0;
+}
+.rotape .copyright .copyright-palavra {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.rotape .copyright .copyright-palavra:hover {
+  color: white;
+  transition: 0.4s;
+}
+
+.caminar {
+  box-shadow: 1px 1px 13px 1px #121315;
+  margin: 0 1.5625em 3.75em 1.5625em;
+}
+.caminar .fringilla .fringilla-img {
+  max-height: 100%;
+  vertical-align: middle;
+  width: 100%;
+}
+.caminar .fringilla .fringilla-box-titulo {
+  background-color: white;
+  padding: 3.5em 4em;
+  text-align: center;
+}
+.caminar .fringilla .fringilla-box-titulo .fringilla-titulo {
+  color: #1E1F23;
+  font-size: 1.8em;
+}
+.caminar .fringilla .fringilla-box-titulo .fringilla-titulo:after {
+  content: "";
+  border-bottom: 1px;
+  border-bottom-style: solid;
+  border-color: #bbb;
+  display: block;
+  justify-content: center;
+  margin: 0.5em auto;
+  width: 3.5em;
+}
+.caminar .fringilla .fringilla-box-titulo .fringilla-secundario {
+  color: #bbb;
+  font-size: 0.85em;
+  font-weight: 300;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+}
+.caminar .fringilla .fringilla-box-textos {
+  color: #a7a6a6;
+  background-color: #ececec;
+  font-weight: normal;
+  padding: 5.5em 4em 3.5em 4em;
+}
+.caminar .convallis {
+  display: flex;
+  background-color: #1E1F23;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+.caminar .convallis-boxs {
+  background-color: #121315;
+  margin: 5.6em 0;
+  max-width: 87%;
+}
+.caminar .convallis-boxs .convallis-box-titulo {
+  padding: 2em 4em;
+  text-align: center;
+}
+.caminar .convallis-boxs .convallis-box-titulo .convallis-titulo {
+  color: white;
+  font-size: 1.8em;
+}
+.caminar .convallis-boxs .convallis-box-titulo .convallis-titulo:after {
+  content: "";
+  border-bottom: 1px;
+  border-bottom-style: solid;
+  border-color: #bbb;
+  display: block;
+  justify-content: center;
+  margin: 0.5em auto;
+  width: 3.5em;
+}
+.caminar .convallis-boxs .convallis-box-titulo .convallis-secundario {
+  color: #7d7d7d;
+  font-size: 0.85em;
+  font-weight: 300;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+}
+.caminar .convallis-boxs .convallis-box {
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+}
+.caminar .convallis-boxs .convallis-box .convallis-img {
+  cursor: pointer;
+  height: 100%;
+  width: 100%;
+}
+.caminar .convallis-boxs .convallis-box .convallis-img:hover {
+  transform: scale(1.05);
+  transition: 1.2s;
+}
+
+.viverra {
+  background-color: white;
+}
+.viverra .viverra-order {
+  background-color: #1E1F23;
+}
+@media (max-width: 992px) {
+  .viverra .viverra-order {
+    order: 1;
+  }
+}
+.viverra .viverra-order .viverra-box-texto {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  flex-direction: column;
+  padding: 60px;
+  width: 100%;
+  color: #ececec;
+}
+.viverra .viverra-order .viverra-img {
+  height: 100%;
+  width: 100%;
+}
+.viverra .viverra-box {
+  margin: 0;
+  padding: 0;
+}
+.viverra .viverra-box .viverra-box-texto {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  flex-direction: column;
+  padding: 60px;
+  width: 100%;
+}
+.viverra .viverra-box .viverra-img {
+  height: 100%;
+  width: 100%;
+}
+
+.modal {
+  display: none;
+}
+.modal .modal-fundo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4.375em;
+}
+.modal .modal-fundo .modal-conteudo {
+  width: 700px;
+  height: 450px;
+  background-color: antiquewhite;
+  padding: 0.625em;
+  position: relative;
+}
+.modal .modal-fundo .modal-conteudo .modal-photo {
+  height: 100%;
+  width: 100%;
+}
+.modal .modal-fundo .modal-conteudo .modal-button {
+  cursor: pointer;
+  position: absolute;
+  top: 0px;
+  right: -61px;
+  padding: 0.9375em 1.25em;
+  background: #1E1F23;
+  color: white;
+  font-size: 1.1875em;
+  font-weight: bold;
+}
+.modal .modal-fundo .modal-conteudo .modal-button:hover {
+  transition: 0.4s;
+  color: #5ee1a7;
+}
+
+.container {
+  max-width: 90em;
+}
+
+.principal {
+  text-align: center;
+  line-height: 0.95;
+  padding: 7em 0 4.375em 0;
+}
+.principal .principal-titulo {
+  font-size: 4.3em;
+  font-weight: bold;
+  color: white;
+}
+.principal .principal-secundario {
+  font-size: 1em;
+  font-weight: normal;
+  color: #ececec;
+}
+.principal .principal-secundario .principal-secundario-templated {
+  text-transform: uppercase;
+}
+
+/*# sourceMappingURL=style.css.map */
