@@ -1,0 +1,27 @@
+@import './variaveis.scss';
+@import './mixin.scss';
+
+.container {
+    max-width: 90em;
+}
+
+.principal {
+    text-align: center;
+    line-height: .95;
+    padding: 7em 0 4.375em 0;
+
+    .principal-titulo {
+        font-size: 4.3em;
+        font-weight: bold;
+        color: $cor-branco;
+    }
+    .principal-secundario {
+        font-size: 1em;
+        font-weight: normal;
+        color: $cor-branco-escuro;
+
+        .principal-secundario-templated {
+            text-transform: uppercase;
+        }
+    }
+}

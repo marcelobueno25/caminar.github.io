@@ -1,0 +1,37 @@
+@import './variaveis.scss';
+@import './mixin.scss';
+
+.rotape {
+    text-align: center;
+
+    .rede-social {
+        padding: 1.25em 0;
+
+        .rede-social-icone {
+            color: $cor-cinza-claro;
+            cursor: pointer;
+            font-size: 2em;
+            margin: 0 0.325em;
+
+            &:hover {
+                color: $cor-branco;
+                transition: .4s;
+            }
+        }
+    }
+
+    .copyright {
+        color: $cor-cinza;
+        padding: 1.25em 0 3em 0;
+
+        .copyright-palavra {
+            cursor: pointer;
+            text-decoration: underline;
+
+            &:hover {
+                color: $cor-branco;
+                transition: .4s;
+            }
+        }
+    }
+}
