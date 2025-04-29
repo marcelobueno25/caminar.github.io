@@ -6,6 +6,12 @@
 
 ---
 
+## 📸 Capturas de tela
+
+![Screenshot do jogo](./screenshot.png) <!-- Altere ou adicione uma imagem do jogo se desejar -->
+
+---
+
 ## Índice
 
 1. Visão geral
